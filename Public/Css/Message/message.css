@@ -1,0 +1,12 @@
+img[src$='logo.png']{
+  border:red 0px solid;
+ vertical-align:middle;
+}
+.welcome{
+  position: absolute;
+  right:20%;
+  top:50%;
+}
+.username{
+  color:green;
+}

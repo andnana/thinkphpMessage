@@ -1,0 +1,14 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>top</title>
+  <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/Message/message.css" />
+</head>
+<body>
+  <div style="display:table ;height:100px;margin:0px auto; border:red solid 0px">
+<span style="display:table-cell;vertical-align:middle;text-align:center" ><img src = "__PUBLIC__/Images/logo.png"/> </span>
+<span class="welcome" >欢迎<span class="username"><?php echo ($_SESSION['user']['username']); ?></span>&nbsp;&nbsp;<a href="__APP__/Login/doLogout" target="_top">退出</a></span>
+</div>
+</body>
+</html>
